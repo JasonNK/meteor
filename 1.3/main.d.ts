@@ -16,7 +16,6 @@ declare module Accounts {
     email?: string;
     password?: string;
     profile?: Object;
-    firstLogin?: boolean;
   }, callback?: Function): string;
 
   function config(options: {
@@ -59,7 +58,6 @@ declare module "meteor/accounts-base" {
       email?: string;
       password?: string;
       profile?: Object;
-      firstLogin?: boolean;
     }, callback?: Function): string;
 
     function config(options: {
