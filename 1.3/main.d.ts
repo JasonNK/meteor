@@ -1000,7 +1000,6 @@ declare module Meteor {
     createdAt?: Date;
     profile?: any;
     services?: any;
-    firstLogin?: boolean;
   }
 
   function user(): User;
@@ -1104,7 +1103,6 @@ declare module "meteor/meteor" {
       createdAt?: number;
       profile?: any;
       services?: any;
-      firstLogin?: boolean;
     }
 
     function user(): User;
